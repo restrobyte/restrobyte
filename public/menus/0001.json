@@ -1,0 +1,36 @@
+{
+  "name": "The Gourmet Hub 1",
+  "image": "/images/cover0001.jpg",
+  "location": "New York, USA",
+  "categories": [
+    {
+      "name": "Starter",
+      "items": [
+        {
+          "name": "Grilled Paneer",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 4.3,
+          "price": 7.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["veg", "bestseller"]
+        },
+        {
+          "name": "Grilled Mushroom",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 4.2,
+          "price": 10.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["veg"]
+        },
+        {
+          "name": "Grilled Chicken",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 4.9,
+          "price": 85.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["non-veg", "bestseller"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "The Gourmet Hub 2",
+  "image": "/images/gourmet-hub.jpg",
+  "location": "New York, USA",
+  "categories": [
+    {
+      "name": "Starter",
+      "items": [
+        {
+          "name": "Grilled non veg 1",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 4.8,
+          "price": 10.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["non-veg", "bestseller"]
+        },
+        {
+          "name": "Grilled veg 1",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 4.0,
+          "price": 11.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["veg"]
+        },
+        {
+          "name": "Grilled veg 2",
+          "image": "/images/grilled-chicken.jpg",
+          "rating": 3.5,
+          "price": 9.99,
+          "description": "Juicy grilled chicken with herbs.",
+          "tags": ["veg", "bestseller"]
+        }
+      ]
+    }
+  ]
+}
