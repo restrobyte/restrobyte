@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import RestaurantMenu from "./components/RestaurantMenu";
 import { ChakraProvider } from '@chakra-ui/react';
+import { Analytics } from "@vercel/analytics/react"
 
 const App: React.FC = () => {
   return (
