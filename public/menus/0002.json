@@ -1,34 +1,161 @@
 {
-  "name": "The Gourmet Hub 2",
-  "image": "/images/gourmet-hub.jpg",
-  "location": "New York, USA",
+  "name": "The Gourmet Hub ",
+  "location": "Lawrence Road, New Delhi",
+  "image": "https://media.istockphoto.com/id/1187685693/photo/waiting-for-the-guest-table-elegance-set.jpg?s=612x612&w=0&k=20&c=M4dBBgKGZ8e1AuopMgK-T2rAZXyTeyXy6gEk4FQKpKM=",
   "categories": [
     {
-      "name": "Starter",
+      "name": "Soups",
       "items": [
         {
-          "name": "Grilled non veg 1",
-          "image": "/images/grilled-chicken.jpg",
-          "rating": 4.8,
-          "price": 10.99,
-          "description": "Juicy grilled chicken with herbs.",
-          "tags": ["non-veg", "bestseller"]
+          "name": "Tamatar Dhaniya Shorba",
+          "price": 207,
+          "description": "Zesty tomato and coriander soup with carom crisps.",
+          "tags": ["veg", "spicy", "bestseller", "chef-special"],
+          "image": "https://media.istockphoto.com/id/1323137584/photo/close-up-of-indian-homemade-fresh-and-healthy-tomato-soup-garnished-with-fresh-coriander.jpg?b=1&s=612x612&w=0&k=20&c=wVn5pv8LnMSyPxFuAdDZF2UAykMOciZHvqb-SEcALOc="
         },
         {
-          "name": "Grilled veg 1",
-          "image": "/images/grilled-chicken.jpg",
-          "rating": 4.0,
-          "price": 11.99,
-          "description": "Juicy grilled chicken with herbs.",
-          "tags": ["veg"]
+          "name": "Chicken Badami Shorba",
+          "price": 223,
+          "description": "Light chicken soup with mint, diced chicken, and almonds.",
+          "tags": ["non-veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/1239847718/photo/thick-creamy-chicken-soup-soup-with-an-egg.jpg?s=612x612&w=0&k=20&c=lqmiJEmXIIUfGTuaQ23sSbH47xV6EMuIpfq5o_MuTsE="
         },
         {
-          "name": "Grilled veg 2",
-          "image": "/images/grilled-chicken.jpg",
-          "rating": 3.5,
-          "price": 9.99,
-          "description": "Juicy grilled chicken with herbs.",
-          "tags": ["veg", "bestseller"]
+          "name": "Mutton Paya Shorba",
+          "price": 267,
+          "description": "Rich goat trotter broth with black pepper and coriander.",
+          "tags": ["non-veg"],
+          "image": "https://media.istockphoto.com/id/1486754568/photo/nihari-delicious-and-spicy-tender-meat-curry.jpg?b=1&s=612x612&w=0&k=20&c=mt-Bm7MJN0OcZ-E-pi9SHx3aVUpN2dfc7AHnANiByqU="
+        }
+      ]
+    },
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "name": "Paneer Tikka",
+          "price": 250,
+          "description": "Marinated cottage cheese cubes grilled to perfection.",
+          "tags": ["veg", "bestseller", "spicy"],
+          "image": "https://media.istockphoto.com/id/1361506678/photo/paneer-tikka-grilled-cottage-cheese.jpg?b=1&s=612x612&w=0&k=20&c=OXVBkE79M7yqsZ5ojdnKxTk7f_2ocxJgn7IKiC_sZmE="
+        },
+        {
+          "name": "Veg Seekh Kebab",
+          "price": 220,
+          "description": "Spiced vegetable kebabs cooked on skewers.",
+          "tags": ["veg", "chef-special"],
+          "image": "https://media.istockphoto.com/id/980152194/photo/veg-seekh-kabab-served-with-green-salad-and-chutney.jpg?b=1&s=612x612&w=0&k=20&c=SLgZyWb9Inrme-1XvOFjC4HAxPUFHuzDHmypZy49ZeY="
+        },
+        {
+          "name": "Chicken Malai Tikka",
+          "price": 280,
+          "description": "Creamy chicken tikka marinated with mild spices.",
+          "tags": ["non-veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/519590957/photo/tikka-bots-10.jpg?b=1&s=612x612&w=0&k=20&c=OyTxmaWJQAUzmyBehCNU8Qcgjb1Wapb_23w5y5HlQW0="
+        },
+        {
+          "name": "Mutton Seekh Kebab",
+          "price": 320,
+          "description": "Juicy minced mutton kebabs seasoned with spices.",
+          "tags": ["non-veg", "chef-special", "spicy"],
+          "image": "https://media.istockphoto.com/id/980114432/photo/indian-mutton-seekh-kabab-served-with-green-salad-selective-focus.jpg?b=1&s=612x612&w=0&k=20&c=p-Z-CPafa1GE5wlrVXL9X6EjZ5INHdxg82eJ1RD9O8k="
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "name": "Malai Kofta",
+          "price": 556,
+          "description": "Cashew-stuffed paneer dumplings in saffron-cream gravy.",
+          "tags": ["veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/2173659983/photo/fried-meatballs-with-curry-sauce-top-view-table-with-christmas-decoration.jpg?b=1&s=612x612&w=0&k=20&c=bM4DVPV8IpDTxcwsLCTkRYKia-VFDL8q8pEKq-h8ZXo="
+        },
+        {
+          "name": "Saag Paneer",
+          "price": 556,
+          "description": "Paneer in creamy spinach with garlic and spices.",
+          "tags": ["veg", "spicy", "chef-special"],
+          "image": "https://media.istockphoto.com/id/1308642798/photo/palak-paneer-served-basmati-rice-on-white-table.jpg?s=612x612&w=0&k=20&c=a-NFv8Cve29uLej0twHZbXxhflwd4-PNCY4204oZYhY="
+        },
+        {
+          "name": "Chicken Curry",
+          "price": 667,
+          "description": "Slow-cooked chicken curry with onions, tomatoes, and spices.",
+          "tags": ["non-veg", "chef-special", "spicy"],
+          "image": "https://media.istockphoto.com/id/1319819356/photo/authentic-indian-chicken-curry-with-rice-top-down-photo-on-white-background.jpg?s=612x612&w=0&k=20&c=vQ2cJMqF1v7EpV9qWpFvckFikhYAjaBBDekvSyVbENQ="
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 667,
+          "description": "Tandoori chicken in buttery tomato gravy.",
+          "tags": ["non-veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/1170675412/photo/creamy-indian-chicken-curry-with-rice.jpg?s=612x612&w=0&k=20&c=eOSHtI3TZ6B0sdJEDPSTWItnkJmvXIqW9pIRV4_ZK2g="
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "name": "Butter Naan",
+          "price": 40,
+          "description": "Soft Indian bread topped with butter.",
+          "tags": ["veg"],
+          "image": "https://media.istockphoto.com/id/1249816866/photo/naan-garlic-indian-flat-bread-tipical-in-western-asia-south-asia-myanmar-and-the-caribbean.jpg?s=612x612&w=0&k=20&c=EU766nBz8oREVZC1mHr2DoCclHsBTlV24MvAmDXP7z0="
+        },
+        {
+          "name": "Garlic Naan",
+          "price": 50,
+          "description": "Naan bread flavored with garlic.",
+          "tags": ["veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/1497110924/photo/fresh-warm-naan-bread-sliced-and-served-on-a-plate.jpg?s=612x612&w=0&k=20&c=XPXRyM_9vH4Z2xod6brrGwU2ZNFMhIYghGKj76jvj30="
+        },
+        {
+          "name": "Tandoori Roti",
+          "price": 30,
+          "description": "Whole wheat bread cooked in a tandoor.",
+          "tags": ["veg"],
+          "image": "https://media.istockphoto.com/id/1437065085/photo/tandoori-garlic-naan-served-in-a-basket-isolated-on-grey-background-top-view-of-bangladesh.jpg?s=612x612&w=0&k=20&c=SGaZ6QYcA5o8eVAChjckKUMldpKTZCtzbNls08eJGQs="
+        }
+      ]
+    },
+    {
+      "name": "Rice and Biryani",
+      "items": [
+        {
+          "name": "Jeera Rice",
+          "price": 150,
+          "description": "Basmati rice tempered with cumin seeds.",
+          "tags": ["veg"],
+          "image": "https://media.istockphoto.com/id/609930740/photo/jeera-rice-cumin-rice.jpg?s=612x612&w=0&k=20&c=D0eo5vuexF1DpPqpmXZ6TXKJY59IKHz00YFmzlhkImk="
+        },
+        {
+          "name": "Veg Biryani",
+          "price": 220,
+          "description": "Aromatic rice cooked with mixed vegetables.",
+          "tags": ["veg", "bestseller"],
+          "image": "https://media.istockphoto.com/id/695186442/photo/authentic-paneer-or-soya-bean-or-green-peas-pulav-or-vegetables-rice-or-veg-biryani-with.jpg?s=612x612&w=0&k=20&c=vcFLVAAL3Va_P4UpaPhh0KMsy22E4MuXAJiTb-4n24U="
+        },
+        {
+          "name": "Chicken Biryani",
+          "price": 280,
+          "description": "Spiced rice layered with tender chicken pieces.",
+          "tags": ["non-veg", "bestseller", "spicy"],
+          "image": "https://media.istockphoto.com/id/1407172002/photo/indian-spicy-mutton-biryani-with-raita-and-gulab-jamun-served-in-a-dish-side-view-on-grey.jpg?s=612x612&w=0&k=20&c=sYldtF2E_cSuYioPtcmM15arsnSs2mIgpuAKUDuuGoI="
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Rasmalai",
+          "price": 203,
+          "description": "Soft cheese dumplings in chilled saffron-cardamom infused milk.",
+          "tags": ["veg", "chef-special", "bestseller"],
+          "image": "https://media.istockphoto.com/id/884014848/photo/jaggery-ras-malai-is-an-indian-dessert.jpg?s=612x612&w=0&k=20&c=JiBQWme0I0MMI8ON0RmBFc4HHnlKcmFC_aYi42eiJ8M="
         }
       ]
     }

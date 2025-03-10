@@ -1,34 +1,121 @@
 {
   "name": "The Gourmet Hub 1",
   "image": "/images/cover0001.jpg",
-  "location": "New York, USA",
+  "location": "Los Angeles, USA",
   "categories": [
     {
-      "name": "Starter",
+      "name": "Starters",
       "items": [
         {
-          "name": "Grilled Paneer",
-          "image": "/images/grilled-chicken.jpg",
-          "rating": 4.3,
-          "price": 7.99,
-          "description": "Juicy grilled chicken with herbs.",
+          "name": "Crispy Spring Rolls",
+          "image": "/images/spring-rolls.jpg",
+          "rating": 4.5,
+          "price": 6.99,
+          "description": "Crispy vegetable spring rolls with sweet chili dip.",
           "tags": ["veg", "bestseller"]
         },
         {
-          "name": "Grilled Mushroom",
-          "image": "/images/grilled-chicken.jpg",
-          "rating": 4.2,
-          "price": 10.99,
-          "description": "Juicy grilled chicken with herbs.",
+          "name": "Chicken Wings",
+          "image": "/images/chicken-wings.jpg",
+          "rating": 4.7,
+          "price": 8.49,
+          "description": "Spicy buffalo chicken wings with ranch dip.",
+          "tags": ["non-veg", "spicy"]
+        },
+        {
+          "name": "Cheese Garlic Bread",
+          "image": "/images/garlic-bread.jpg",
+          "rating": 4.3,
+          "price": 4.99,
+          "description": "Garlic bread with melted mozzarella cheese.",
+          "tags": ["veg"]
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "name": "Paneer Tikka Masala",
+          "image": "/images/paneer-tikka.jpg",
+          "rating": 4.8,
+          "price": 12.99,
+          "description": "Cottage cheese cooked in rich tomato-based gravy.",
+          "tags": ["veg", "chef-special"]
+        },
+        {
+          "name": "Butter Chicken",
+          "image": "/images/butter-chicken.jpg",
+          "rating": 4.9,
+          "price": 14.99,
+          "description": "Creamy and flavorful butter chicken with naan.",
+          "tags": ["non-veg", "bestseller"]
+        },
+        {
+          "name": "Mushroom Risotto",
+          "image": "/images/risotto.jpg",
+          "rating": 4.6,
+          "price": 11.49,
+          "description": "Creamy mushroom risotto with parmesan cheese.",
+          "tags": ["veg"]
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "items": [
+        {
+          "name": "Mojito",
+          "image": "/images/mojito.jpg",
+          "rating": 4.7,
+          "price": 5.99,
+          "description": "Refreshing mint and lime drink.",
           "tags": ["veg"]
         },
         {
-          "name": "Grilled Chicken",
-          "image": "/images/grilled-chicken.jpg",
+          "name": "Cold Coffee",
+          "image": "/images/cold-coffee.jpg",
+          "rating": 4.4,
+          "price": 4.99,
+          "description": "Iced coffee topped with whipped cream.",
+          "tags": ["veg", "bestseller"]
+        },
+        {
+          "name": "Spicy Masala Chai",
+          "image": "/images/masala-chai.jpg",
+          "rating": 4.8,
+          "price": 3.49,
+          "description": "Traditional Indian spiced tea.",
+          "tags": ["veg", "spicy"]
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Chocolate Lava Cake",
+          "image": "/images/lava-cake.jpg",
           "rating": 4.9,
-          "price": 85.99,
-          "description": "Juicy grilled chicken with herbs.",
-          "tags": ["non-veg", "bestseller"]
+          "price": 6.49,
+          "description": "Rich chocolate cake with a molten center.",
+          "tags": ["veg", "bestseller"]
+        },
+        {
+          "name": "Gulab Jamun",
+          "image": "/images/gulab-jamun.jpg",
+          "rating": 4.6,
+          "price": 3.99,
+          "description": "Soft dumplings soaked in sugar syrup.",
+          "tags": ["veg", "chef-special"]
+        },
+        {
+          "name": "Blueberry Cheesecake",
+          "image": "/images/cheesecake.jpg",
+          "rating": 4.7,
+          "price": 7.49,
+          "description": "Creamy cheesecake topped with blueberry compote.",
+          "tags": ["veg"]
         }
       ]
     }
